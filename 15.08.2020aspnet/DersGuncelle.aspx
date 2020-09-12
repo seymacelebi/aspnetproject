@@ -7,23 +7,21 @@
         <div class="form-group">
            
             <div>
-                <asp:Label  for="TxtDersAdı" runat="server" >Ders Adı</asp:Label>
-                <asp:TextBox ID="TxtDersAdı" runat="server" CssClass="form-control"></asp:TextBox>
-
-            <br />
-           
-           </div>
-
-            <div>
                 <asp:Label  for="TxtDersId" runat="server" >Ders Id</asp:Label>
                 <asp:TextBox ID="TxtDersId" runat="server" CssClass="form-control"></asp:TextBox>
 
             <br />
            
            </div>
+            <div>
+                <asp:Label  for="TxtDersAdı" runat="server" >Ders Adı</asp:Label>
+                <asp:TextBox ID="TxtDersAdı" runat="server" CssClass="form-control"></asp:TextBox>
+
+           
+           </div>
         </div>
 
-            <asp:Button runat="server" Text="Güncelle" CssClass="btn btn-primary" OnClick="Unnamed4_Click" />
+            <asp:Button runat="server" Text="Güncelle" CssClass="btn btn-primary"  />
     </form>
 
 

@@ -11,7 +11,7 @@ namespace _15._08._2020aspnet
 {
 
 
-    public partial class DersGuncelle
+    public partial class OgrenciGuncelle2
     {
 
         /// <summary>
@@ -24,21 +24,30 @@ namespace _15._08._2020aspnet
         protected global::System.Web.UI.HtmlControls.HtmlForm Form1;
 
         /// <summary>
-        /// TxtDersId control.
+        /// TextBox1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TxtDersId;
+        protected global::System.Web.UI.WebControls.TextBox TextBox1;
 
         /// <summary>
-        /// TxtDersAdı control.
+        /// TextBox6 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TxtDersAdı;
+        protected global::System.Web.UI.WebControls.TextBox TextBox6;
+
+        /// <summary>
+        /// TextBox2 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox TextBox2;
     }
 }

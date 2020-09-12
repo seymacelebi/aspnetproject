@@ -11,7 +11,7 @@ namespace _15._08._2020aspnet
 {
 
 
-    public partial class DersGuncelle
+    public partial class OgrenciMesajOlustur
     {
 
         /// <summary>
@@ -24,21 +24,39 @@ namespace _15._08._2020aspnet
         protected global::System.Web.UI.HtmlControls.HtmlForm Form1;
 
         /// <summary>
-        /// TxtDersId control.
+        /// TxtGonderen control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TxtDersId;
+        protected global::System.Web.UI.WebControls.TextBox TxtGonderen;
 
         /// <summary>
-        /// TxtDersAdı control.
+        /// TxtAlıcı control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TxtDersAdı;
+        protected global::System.Web.UI.WebControls.TextBox TxtAlıcı;
+
+        /// <summary>
+        /// TxtMesajBaslık control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox TxtMesajBaslık;
+
+        /// <summary>
+        /// TxtMesajIcerık control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlTextArea TxtMesajIcerık;
     }
 }

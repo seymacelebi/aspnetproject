@@ -24,15 +24,18 @@
             transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
             margin-left: 105px;
         }
+        .auto-style3 {
+            height: 121px;
+        }
     </style>
 </head>
 <body>
     <form id="form1" runat="server">
-        <div style=" margin:auto; text-align:center; background-image: url('22.jpg');">
-            <h3>Öğrenci Sınav Sistemi Giriş Sistemi</h3>
+        <div style=" margin:auto; text-align:center; background-image: url('11.jpg');">     <br />
+            <h2>Udemy Öğrenci Not Sistemi</h2>
              <br />
              <br />
-             <div style="margin:auto; text-align:center; background-image: url('22.jpg');">
+             <div style="margin:auto; text-align:center; background-image: url('11.jpg');">
             <asp:Image ID="Image1" runat="server" Height="100px" Width="100px" ImageUrl="~/images.png" /> </div> <br />
              <br />
               <div>
@@ -44,14 +47,14 @@
 
               <div>
                 <asp:Label  for="Txtsifre" runat="server" >Şifre</asp:Label>
-                <asp:TextBox ID="Txtsifre" runat="server" CssClass="auto-style2" Width="900px" text-align="center" Height="42px" ></asp:TextBox>
+                <asp:TextBox ID="Txtsifre" runat="server" CssClass="auto-style2" Width="900px" text-align="center" Height="42px" TextMode="Password" ></asp:TextBox>
 
         </div>
         <br />
-            <asp:Button ID="Button1" runat="server" Text="Giriş Yap" CssClass="btn btn-default" Width="700px"  />
+            <asp:Button ID="Button1" runat="server" Text="Giriş Yap" CssClass="btn btn-default" Width="700px" OnClick="Button1_Click"  />
              <br />
              <br />
-            <asp:Button ID="Button3" runat="server" Text="İptal Et" CssClass="btn btn-danger" Width="700px"  />
+            <asp:Button ID="Button3" runat="server" Text="Öğretmen Girişi" CssClass="btn btn-danger" Width="700px" OnClick="Button3_Click"  />
              <br />
               <br />
             <asp:Button ID="Button2" runat="server" Text="Şifremi Unuttum" CssClass="btn btn-warning" Width="350px"  />

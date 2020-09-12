@@ -12,7 +12,8 @@ namespace _15._08._2020aspnet
         protected void Page_Load(object sender, EventArgs e)
         {
             DataSet1TableAdapters.TBLMESSAGETableAdapter dt = new DataSet1TableAdapters.TBLMESSAGETableAdapter();
-            Repeater1.DataSource = dt.IsimOlusturma();
+            //Repeater1.DataSource = dt.IsimOlusturma();
+            Repeater1.DataSource= dt.OgretmenGidenMesaj(Session["OGRTNUMARA"].ToString());
             Repeater1.DataBind();
         }
     }

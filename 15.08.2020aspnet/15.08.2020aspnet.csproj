@@ -68,7 +68,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="22.jpg" />
+    <Content Include="11.jpg" />
+    <Content Include="Cıkıs.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="DersEkle.aspx" />
     <Content Include="DersGuncelle.aspx" />
@@ -355,12 +356,25 @@
     <Content Include="MesajOlustur.aspx" />
     <Content Include="NotGuncelle.aspx" />
     <Content Include="NotListesi.aspx" />
+    <Content Include="OgrenciDefault.aspx" />
     <Content Include="OgrenciEkle.aspx" />
+    <Content Include="OgrenciGelenMesajlar.aspx" />
+    <Content Include="OgrenciGidenMesajlar.aspx" />
     <Content Include="OgrenciGuncelle.aspx" />
+    <Content Include="OgrenciGuncelle2.aspx" />
+    <Content Include="OgrenciMesajOlustur.aspx" />
+    <Content Include="OgrenciNotu.aspx" />
     <Content Include="OgrenciSil.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Cıkıs.aspx.cs">
+      <DependentUpon>Cıkıs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cıkıs.aspx.designer.cs">
+      <DependentUpon>Cıkıs.aspx</DependentUpon>
+    </Compile>
     <Compile Include="DataSet1.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -492,6 +506,20 @@
     <Compile Include="NotListesi.aspx.designer.cs">
       <DependentUpon>NotListesi.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Ogrenci.Master.cs">
+      <DependentUpon>Ogrenci.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ogrenci.Master.designer.cs">
+      <DependentUpon>Ogrenci.Master</DependentUpon>
+    </Compile>
+    <Compile Include="OgrenciDefault.aspx.cs">
+      <DependentUpon>OgrenciDefault.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OgrenciDefault.aspx.designer.cs">
+      <DependentUpon>OgrenciDefault.aspx</DependentUpon>
+    </Compile>
     <Compile Include="OgrenciEkle.aspx.cs">
       <DependentUpon>OgrenciEkle.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -499,12 +527,47 @@
     <Compile Include="OgrenciEkle.aspx.designer.cs">
       <DependentUpon>OgrenciEkle.aspx</DependentUpon>
     </Compile>
+    <Compile Include="OgrenciGelenMesajlar.aspx.cs">
+      <DependentUpon>OgrenciGelenMesajlar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OgrenciGelenMesajlar.aspx.designer.cs">
+      <DependentUpon>OgrenciGelenMesajlar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OgrenciGidenMesajlar.aspx.cs">
+      <DependentUpon>OgrenciGidenMesajlar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OgrenciGidenMesajlar.aspx.designer.cs">
+      <DependentUpon>OgrenciGidenMesajlar.aspx</DependentUpon>
+    </Compile>
     <Compile Include="OgrenciGuncelle.aspx.cs">
       <DependentUpon>OgrenciGuncelle.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="OgrenciGuncelle.aspx.designer.cs">
       <DependentUpon>OgrenciGuncelle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OgrenciGuncelle2.aspx.cs">
+      <DependentUpon>OgrenciGuncelle2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OgrenciGuncelle2.aspx.designer.cs">
+      <DependentUpon>OgrenciGuncelle2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OgrenciMesajOlustur.aspx.cs">
+      <DependentUpon>OgrenciMesajOlustur.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OgrenciMesajOlustur.aspx.designer.cs">
+      <DependentUpon>OgrenciMesajOlustur.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OgrenciNotu.aspx.cs">
+      <DependentUpon>OgrenciNotu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OgrenciNotu.aspx.designer.cs">
+      <DependentUpon>OgrenciNotu.aspx</DependentUpon>
     </Compile>
     <Compile Include="OgrenciSil.aspx.cs">
       <DependentUpon>OgrenciSil.aspx</DependentUpon>
@@ -630,6 +693,7 @@
     <Content Include="DataSet1.xss">
       <DependentUpon>DataSet1.xsd</DependentUpon>
     </Content>
+    <Content Include="Ogrenci.Master" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
